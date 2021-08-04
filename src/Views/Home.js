@@ -12,14 +12,25 @@ function Home() {
                 enable: true
             },
             color: {
-                value: ["#5bc0eb", "#fde74c", "#9bc53d", "#e55934", "#fa7921"],
+                value: "random",
+                animation: {
+                    enable: true,
+                    speed: 40,
+                    sync: true
+                }
             },
+
+            shape: {
+                type: "star",
+            },
+
+
         }
     });
 
     return (
         <div>
-           
+
 
         </div>
     )
