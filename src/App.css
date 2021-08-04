@@ -1,7 +1,9 @@
 #tsparticles {
   /*   background; */
   width: 100%;
-  background-color: #0ab1e9;
+  /* background-color: #0ab1e9; */
+  background-color: black;
+
   /* background-color: #9c0578; */
   
   height: 100%;
