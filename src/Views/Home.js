@@ -11,6 +11,9 @@ function Home() {
             move: {
                 enable: true
             },
+            color: {
+                value: ["#5bc0eb", "#fde74c", "#9bc53d", "#e55934", "#fa7921"],
+            },
         }
     });
 
