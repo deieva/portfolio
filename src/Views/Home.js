@@ -43,13 +43,53 @@ function Home() {
                 width: 1
             },
 
+        },
+        interactivity: {
+            detectsOn: "canvas",
+            events: {
+                onHover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onClick: {
+                    enable: true,
+                    mode: "bubble"
+                },
+                resize: true
+            },
+            modes: {
+                grab: {
+                    distance: 100,
+                    links: {
+                        opacity: 1
+                    }
+                },
+                bubble: {
+                    distance: 100,
+                    size: 40,
+                    duration: 2,
+                    opacity: 0.8
+                },
+                repulse: {
+                    distance: 100
+                },
+                push: {
+                    quantity: 2
+                },
+                remove: {
+                    quantity: 2
+                }
+            }
+        },
+        detectRetina: true,
 
-        }
+
     });
 
     return (
         <div>
 
+          
 
         </div>
     )
