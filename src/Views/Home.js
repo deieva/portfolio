@@ -35,6 +35,14 @@ function Home() {
                 }
             },
 
+            links: {
+                enable: true,
+                distance: 100,
+                color: "#fff",
+                opacity: 0.6,
+                width: 1
+            },
+
 
         }
     });
